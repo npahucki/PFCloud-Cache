@@ -11,6 +11,6 @@ Pod::Spec.new do |s|
   s.requires_arc = true
   s.dependency 'NSData+MD5Digest', '~> 1.0'
   s.dependency 'TMCache', '~> 1.2.0'
-  s.dependency 'Parse', '1.4.0'
+  s.dependency 'Parse', '~> 1.4.0'
   s.xcconfig = { 'FRAMEWORK_SEARCH_PATHS' => '"${PODS_ROOT}/Parse"' }
 end
